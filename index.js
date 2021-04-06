@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('hello world');
+app.use(express.json());
+
+app.post('/mercadopago', (req, res) => {
+  res.send(`hi ${req.body.name}`);
+  console.log(req.body);
 });
 
 app.listen(3000, () => {
