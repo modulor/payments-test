@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/modulor/payments-test/issues"
   },
-  "homepage": "https://github.com/modulor/payments-test#readme"
+  "homepage": "https://github.com/modulor/payments-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
